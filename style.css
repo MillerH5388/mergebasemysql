@@ -1,0 +1,8 @@
+.spin_animate::before
+{
+    animation: rotate 3s infinite;
+}
+
+@keyframes rotate {
+    100% {transform: rotate(360deg);}
+  }
